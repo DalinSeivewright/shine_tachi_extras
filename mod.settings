@@ -1,0 +1,16 @@
+name        = "[Shine] Tachi's Extras"
+source_dir  = "source"
+output_dir  = "output"
+description = [=[Slowly building up extra commands/features for Shine servers.
+Some might be specific to the Siege game mod but most will be general purpose and potentially useful for you.
+Mod Id:  42ec2e72
+
+Current Extensions:
+[b]shine_kill_clogs[/b]
+* Adds the sh_killclogs (!killclogs) command.  Kills all clogs within a given radius.  Useful for griefing.
+
+]=]
+image       = "preview.jpg"
+tag_modtype = "Tool"
+tag_support = "Must be run on Server"
+publish_id = "42ec2e72"
