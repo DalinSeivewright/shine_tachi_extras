@@ -9,6 +9,9 @@ Current Extensions:
 [b]shine_kill_clogs[/b]
 * Adds the sh_killclogs (!killclogs) command.  Kills all clogs within a given radius.  Useful for griefing.
 
+[b]shine_alltalk_reset[/b]
+* Hooks into End of Round, Map Change and Map Load events and runs "sh_alltalk false" when they trigger.  Ensures that alltalk is not accidentally left on when Admins leave.
+
 ]=]
 image       = "preview.jpg"
 tag_modtype = "Tool"
