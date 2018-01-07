@@ -6,7 +6,7 @@
 local Shine = Shine
 local Plugin = {}
 Plugin.Version = "1.0"
-Plugin.PrintName = "Kill Clogs Command"
+Plugin.PrintName = "Kill Clogs"
 Plugin.HasConfig = false
 Plugin.CheckConfig = false
 Plugin.CheckConfigTypes = false
