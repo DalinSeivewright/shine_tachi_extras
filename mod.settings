@@ -12,6 +12,10 @@ Current Extensions:
 [b]shine_alltalk_reset[/b]
 * Hooks into End of Round, Map Change and Map Load events and runs "sh_alltalk false" when they trigger.  Ensures that alltalk is not accidentally left on when Admins leave.
 
+[b]shine_give_res[/b]
+* Adds the sh_giveres (!giveres) command.  Allows players to give res to specific team mates (or the entire team).  Distributes Res Amount evenly among targets.  Supports Shine target shortcuts.
+* Usage:  sh_giveres <amount> <target(s)>
+
 ]=]
 image       = "preview.jpg"
 tag_modtype = "Tool"
